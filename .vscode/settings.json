@@ -32,6 +32,7 @@
     "source.sortImports": "always"
   },
   "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact"],
+  "eslint.workingDirectories": ["./"],
   "eslint.format.enable": true,
   "npm.packageManager": "yarn",
   "search-node-modules.path": "node_modules",

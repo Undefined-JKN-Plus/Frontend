@@ -1,3 +1,3 @@
 module.exports = {
-  '*.{ts,tsx}': [() => 'npm run types:staged', 'npm run lint:check', 'npm run format:staged']
+  '*.{ts,tsx}': [() => 'npm run types:staged', 'npm run lint:staged', 'npm run format:staged']
 };
