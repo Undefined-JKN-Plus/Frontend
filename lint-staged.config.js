@@ -1,4 +1,3 @@
 module.exports = {
-    '*': ['eslint --fix --no-warn-ignored'],
-    '**/*.ts?(x)': () => 'npm run check-types',
-  };
+  '*.{ts,tsx}': [() => 'npm run types:staged', 'npm run lint:check', 'npm run format:staged']
+};
