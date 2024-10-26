@@ -23,13 +23,17 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "explicit"
+    "source.addMissingImports.ts": "always",
+    "source.fixAll.sortJSON": "always",
+    "source.fixAll.ts": "always",
+    "source.organizeImports": "always",
+    "source.removeUnused.ts": "always",
+    "source.removeUnusedImports": "always",
+    "source.sortImports": "always"
   },
   "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact"],
   "eslint.format.enable": true,
   "npm.packageManager": "yarn",
   "search-node-modules.path": "node_modules",
-  "markdown.extension.toc.updateOnSave": false,
-  "i18n-ally.localesPaths": ["public/locales"],
-  "i18n-ally.keystyle": "nested"
+  "markdown.extension.toc.updateOnSave": false
 }

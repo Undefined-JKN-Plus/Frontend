@@ -1,11 +1,5 @@
-
 const Home = () => {
-  return (
-    <>
-    <div>Home</div>
-    <h1>test commit baru</h1>
-    </>
-  )
-}
+  return <div>Home</div>;
+};
 
-export default Home
+export default Home;
