@@ -12,6 +12,7 @@
     "types:staged": "tsc --noEmit --pretty",
     "format:staged": "prettier --write",
     "lint:staged": "eslint --fix",
+    "lint:check": "eslint",
     "prepare": "husky"
   },
   "dependencies": {
