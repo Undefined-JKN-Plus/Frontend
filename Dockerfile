@@ -15,7 +15,6 @@ COPY next-env.d.ts next-env.d.ts
 COPY next.config.mjs next.config.mjs
 COPY package-lock.json package-lock.json
 COPY package.json package.json
-COPY public public
 COPY app app
 COPY components components
 COPY hooks hooks
